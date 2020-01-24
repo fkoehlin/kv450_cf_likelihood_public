@@ -1,7 +1,7 @@
 This repository contains the likelihood module for the KiDS+VIKING-450 (in short: KV450) correlation function measurements from [Hildebrandt et al. 2018 (arXiv:1812.06076)](http://adsabs.harvard.edu/abs/2018arXiv181206076H). 
-The module will be working 'out-of-the-box' within a [MontePython](https://github.com/brinckmann/montepython_public) and [CLASS](https://github.com/lesgourg/class_public) (version >= 2.6 and including the HMcode module) setup. The required KiDS+VIKING-450 data files can be downloaded from the [KiDS science data webpage](http://kids.strw.leidenuniv.nl/sciencedata.php) and the parameter file for reproducing the fiducial run of [Hildebrandt et al. 2018 (arXiv:1812.06076)](http://adsabs.harvard.edu/abs/2018arXiv181206076H) is supplied in the subfolder `INPUT` within this repository. 
+The module will be working 'out-of-the-box' within a [MontePython](https://github.com/brinckmann/montepython_public) and [CLASS](https://github.com/lesgourg/class_public) (version >= 2.8 i.e. including the HMcode module) setup. The required KiDS+VIKING-450 data files can be downloaded from the [KiDS science data webpage](http://kids.strw.leidenuniv.nl/sciencedata.php) and the parameter file for reproducing the fiducial run of [Hildebrandt et al. 2018 (arXiv:1812.06076)](http://adsabs.harvard.edu/abs/2018arXiv181206076H) is supplied in the subfolder `INPUT` within this repository. 
 
-Assuming that MontePython (with CLASS version >= 2.6 and including the HMcode module) is set up (we recommend to use the MultiNest sampler!), please proceed as follows:
+Assuming that MontePython (with CLASS version >= 2.8 i.e. including the HMcode module) is set up (we recommend to use the MultiNest sampler!), please proceed as follows:
 
 1) Clone this repository
 
